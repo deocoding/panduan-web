@@ -45,6 +45,10 @@ Langkah-Langkah Pembuatan Web
   ```
 - Ubah DNS IP4 menjadi 127.0.0.1 dan Alternate DNS 8.8.8.8
 - Ubah DNS IP6 menjadi ::1
+- Masuk ke folder yang akan digunakan sebagai server lokal dan inisilisasi laravel valet
+  ```bash
+      valet park
+  ```
 
 ## Koneksi VDC
 
