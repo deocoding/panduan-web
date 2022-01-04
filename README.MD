@@ -5,6 +5,7 @@ Langkah-Langkah Pembuatan Web
 | Framework | Laravel 8 |
 | --------- | --------- |
 | VDC       | Github    |
+| --------- | --------- |
 | Database  | Postgre   |
 
 ## Instalasi Laravel 8 via Composer
