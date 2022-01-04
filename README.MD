@@ -17,7 +17,7 @@ Langkah-Langkah Pembuatan Web
   </tr>
   <tr>
     <td>Database</td>
-    <td>Postgresql</td>
+    <td>Postgresql/MySQL</td>
   </tr>
   <tr>
     <td>IDE</td>
@@ -85,3 +85,29 @@ Langkah-Langkah Pembuatan Web
   npm install
   npm run dev
 ```
+
+## Konfigurasi Database
+
+- Buat Database sesuai dengan proyek
+- Konfigurasi Postgresql pada file `.env`
+  ```bash
+    DB_CONNECTION=pgsql
+    DB_HOST=127.0.0.1
+    DB_PORT=5432
+    DB_DATABASE=<nama_database>
+    DB_USERNAME=<username>
+    DB_PASSWORD=<password>
+  ```
+- Konfigurasi MySQL pada file `.env`
+  ```bash
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=<nama_database>
+    DB_USERNAME=<username>
+    DB_PASSWORD=<password>
+  ```
+- Migrasi database
+  ```bash
+    php artisan migrate
+  ```
