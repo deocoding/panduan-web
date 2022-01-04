@@ -47,7 +47,7 @@ Langkah-Langkah Pembuatan Web
 - Ubah DNS IP6 menjadi ::1
 - Masuk ke folder yang akan digunakan sebagai server lokal dan inisilisasi laravel valet
   ```bash
-      valet park
+    valet park
   ```
 
 ## Koneksi VDC
@@ -89,6 +89,11 @@ Langkah-Langkah Pembuatan Web
 - Untuk melihat status git untuk penambahan atau modifikasi data
   ```bash
     git status
+  ```
+- Setiap kali ada penambahan atau modfikasi file, jalankan perintah berikut
+  ```bash
+    git add .
+    git commit -m "description"
   ```
 
 ## Instalasi Starter Kit
