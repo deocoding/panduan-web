@@ -1,5 +1,6 @@
-<h2 align="center">Langkah-Langkah Pembuatan Web
-</h2>
+<h1 align="center">
+Langkah-Langkah Pembuatan Web
+</h1>
 
 ## Instalasi Laravel 8 via Composer
 
