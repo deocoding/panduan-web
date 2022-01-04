@@ -111,3 +111,14 @@ Langkah-Langkah Pembuatan Web
   ```bash
     php artisan migrate
   ```
+
+## Konfigurasi Timezone
+
+- Inisialisasi variabel baru pada file `.env`
+  ```bash
+    APP_TIMEZONE=Asia/Jakarta
+  ```
+- Ubah variabel `timezone` pada file `.env`
+  ```bash
+    'timezone' => env('APP_TIMEZONE', 'UTC'),
+  ```
