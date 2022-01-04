@@ -2,13 +2,24 @@
 Langkah-Langkah Pembuatan Web
 </h1>
 
+<table align="center">
+    <th>
+        <tr>Uraian</tr>
+        <tr>Deskripsi</tr>
+    </th>
+    <td>
+        <tr>Framework</tr>
+        <tr>Laravel 8</tr>
+    </td>
+</table>
+
 | Uraian    | Deskripsi |
 | --------- | --------- |
 | Framework | Laravel 8 |
 | VDC       | Github    |
 | Database  | Postgre   |
 
-## Instalasi Laravel 8 via Composer
+## Instalasi Laravel via Composer
 
 - Laravel diinstal secara global
   ```bash
