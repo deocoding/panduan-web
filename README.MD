@@ -34,7 +34,7 @@ Langkah-Langkah Pembuatan Web
 
 ## Koneksi VDC
 
-- Buat repo baru sesuai dengan `<nama_proyek>` tanpa file README.md
+- Buat repo baru sesuai dengan `<nama_proyek>` tanpa file `README.md`
 - Inisialisasi git pada repo lokal
   ```bash
     git init
@@ -45,6 +45,18 @@ Langkah-Langkah Pembuatan Web
   ```
 - Pada IDE, tambahkan file `README.md` untuk deskripsi proyek
 - Tambahkan semua file yang dimodifikasi pada repo lokal
+
   ```bash
     git add .
+  ```
+
+  jika tidak ada penambahan file baru, gunakan perintah :
+
+  ```bash
+    git commit -m "modification file <filename_with_ext>"
+  ```
+
+- Commit modifikasi data
+  ```bash
+    git commit -m "first commit"
   ```
