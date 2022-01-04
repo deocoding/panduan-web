@@ -45,18 +45,14 @@ Langkah-Langkah Pembuatan Web
   ```
 - Pada IDE, tambahkan file `README.md` untuk deskripsi proyek
 - Tambahkan semua file yang dimodifikasi pada repo lokal
-
   ```bash
     git add .
   ```
-
-  jika tidak ada penambahan file baru, gunakan perintah :
-
-  ```bash
-    git commit -m "modification file <filename_with_ext>"
-  ```
-
 - Commit modifikasi data
   ```bash
     git commit -m "first commit"
+  ```
+- jika tidak ada penambahan file baru, gunakan perintah :
+  ```bash
+    git commit -am "modification file <filename_with_ext>"
   ```
