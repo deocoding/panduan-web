@@ -15,6 +15,10 @@ Langkah-Langkah Pembuatan Web
     <td>Database</td>
     <td>Postgresql</td>
   </tr>
+  <tr>
+    <td>IDE</td>
+    <td>VS Code</td>
+  </tr>
 </table>
 
 ## Instalasi Laravel via Composer
@@ -26,4 +30,21 @@ Langkah-Langkah Pembuatan Web
 - Arahkan ke folder proyek
   ```bash
     cd <nama_proyek>
+  ```
+
+## Koneksi VDC
+
+- Buat repo baru sesuai dengan `<nama_proyek>` tanpa file README.md
+- Inisialisasi git pada repo lokal
+  ```bash
+    git init
+  ```
+- Jalankan IDE
+  ```bash
+    code .
+  ```
+- Pada IDE, tambahkan file `README.md` untuk deskripsi proyek
+- Tambahkan semua file yang dimodifikasi pada repo lokal
+  ```bash
+    git add .
   ```
