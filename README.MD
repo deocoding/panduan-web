@@ -3,14 +3,21 @@ Langkah-Langkah Pembuatan Web
 </h1>
 
 <table align="center">
-    <th>
-        <tr>Uraian</tr>
-        <tr>Deskripsi</tr>
-    </th>
-    <td>
-        <tr>Framework</tr>
-        <tr>Laravel 8</tr>
-    </td>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
 </table>
 
 | Uraian    | Deskripsi |
