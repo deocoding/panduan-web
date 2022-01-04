@@ -2,6 +2,10 @@
 Langkah-Langkah Pembuatan Web
 </h1>
 
+| Framework | Laravel 8 |
+| VDC | Github |
+| Database | Postgre |
+
 ## Instalasi Laravel 8 via Composer
 
 - Laravel diinstal secara global
