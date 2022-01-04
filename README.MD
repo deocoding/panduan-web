@@ -8,6 +8,10 @@ Langkah-Langkah Pembuatan Web
     <td>Laravel 8</td>
   </tr>
   <tr>
+    <td>Starter Kit</td>
+    <td>Jetstream</td>
+  </tr>
+  <tr>
     <td>VDC</td>
     <td>Github</td>
   </tr>
@@ -34,7 +38,7 @@ Langkah-Langkah Pembuatan Web
 
 ## Koneksi VDC
 
-- Buat repo baru sesuai dengan `<nama_proyek>` tanpa file `README.md`
+- Buat repo baru pada github sesuai dengan `<nama_proyek>` tanpa file `README.md`
 - Inisialisasi git pada repo lokal
   ```bash
     git init
@@ -52,7 +56,19 @@ Langkah-Langkah Pembuatan Web
   ```bash
     git commit -m "first commit"
   ```
-- jika tidak ada penambahan file baru, gunakan perintah :
+- Jika tidak ada penambahan file baru, gunakan perintah :
   ```bash
     git commit -am "modification file <filename_with_ext>"
+  ```
+- Ubah branch repo lokal serupa dengan repo github
+  ```bash
+    git branch -M main
+  ```
+- Buat remote baru agar repo lokal terhubung dengan repo github
+  ```bash
+    git remote add origin <alamat_https_repo_github>
+  ```
+- Uplod penambahan atau modifikasi data pada repo lokal ke repo github
+  ```bash
+    git push -u origin main
   ```
