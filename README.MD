@@ -2,7 +2,7 @@
 Langkah-Langkah Pembuatan Web
 </h1>
 
-| Uraiam    | Deskripsi |
+| Uraian    | Deskripsi |
 | --------- | --------- |
 | Framework | Laravel 8 |
 | VDC       | Github    |
