@@ -56,7 +56,7 @@ Langkah-Langkah Pembuatan Web
   ```bash
     git commit -m "first commit"
   ```
-- Jika tidak ada penambahan file baru, gunakan perintah :
+- Jika tidak ada penambahan file baru
   ```bash
     git commit -am "modification file <filename_with_ext>"
   ```
@@ -68,7 +68,20 @@ Langkah-Langkah Pembuatan Web
   ```bash
     git remote add origin <alamat_https_repo_github>
   ```
-- Uplod penambahan atau modifikasi data pada repo lokal ke repo github
+- Upload penambahan atau modifikasi data pada repo lokal ke repo github
   ```bash
     git push -u origin main
   ```
+- Untuk melihat status git untuk penambahan atau modifikasi data
+  ```bash
+    git status
+  ```
+
+## Instalasi Starter Kit
+
+```bash
+  composer require laravel/jetstream
+  php artisan jetstream:install livewire --teams
+  npm install
+  npm run dev
+```
