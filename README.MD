@@ -92,8 +92,9 @@ Langkah-Langkah Pembuatan Web
   ```
 - Setiap kali ada penambahan atau modfikasi file, jalankan perintah berikut
   ```bash
-    git add .
+    git add <filename>
     git commit -m "description"
+    git push -u origin main
   ```
 
 ## Instalasi Starter Kit
