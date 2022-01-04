@@ -36,6 +36,16 @@ Langkah-Langkah Pembuatan Web
     cd <nama_proyek>
   ```
 
+## Instalasi Laravel Valet (Cukup sekali di awal)
+
+- Instalasi secara global untuk OS Windows 10
+  ```bash
+    composer global require cretueusebiu/valet-windows
+    valet install
+  ```
+- Ubah DNS IP4 menjadi 127.0.0.1 dan Alternate DNS 8.8.8.8
+- Ubah DNS IP6 menjadi ::1
+
 ## Koneksi VDC
 
 - Buat repo baru pada github sesuai dengan `<nama_proyek>` tanpa file `README.md`
