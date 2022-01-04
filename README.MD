@@ -4,27 +4,18 @@ Langkah-Langkah Pembuatan Web
 
 <table align="center">
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <td>Framework</td>
+    <td>Laravel 8</td>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>VDC</td>
+    <td>Github</td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td>Database</td>
+    <td>Postgresql</td>
   </tr>
 </table>
-
-| Uraian    | Deskripsi |
-| --------- | --------- |
-| Framework | Laravel 8 |
-| VDC       | Github    |
-| Database  | Postgre   |
 
 ## Instalasi Laravel via Composer
 
