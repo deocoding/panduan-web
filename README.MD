@@ -90,7 +90,7 @@ Langkah-Langkah Pembuatan Web
   ```bash
     git status
   ```
-- Setiap kali ada penambahan atau modfikasi file, jalankan perintah berikut
+- Setiap kali ada penambahan atau modifikasi file, jalankan perintah berikut
   ```bash
     git add <filename>
     git commit -m "description"
@@ -110,6 +110,7 @@ Langkah-Langkah Pembuatan Web
 
 - Buat Database sesuai dengan proyek
 - Konfigurasi Postgresql pada file `.env`
+
   ```bash
     DB_CONNECTION=pgsql
     DB_HOST=127.0.0.1
@@ -118,7 +119,11 @@ Langkah-Langkah Pembuatan Web
     DB_USERNAME=<username>
     DB_PASSWORD=<password>
   ```
+
+  > Pastikan bahwa ext `pdo_pgsql` dan `pgsql` diaktifkan pada file `php.ini` pada folder php yang digunakan
+
 - Konfigurasi MySQL pada file `.env`
+
   ```bash
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
@@ -127,6 +132,9 @@ Langkah-Langkah Pembuatan Web
     DB_USERNAME=<username>
     DB_PASSWORD=<password>
   ```
+
+  > Ubah `charset` & `collation` pada file `config/database.php` dari `utf8mb4` menjadi `utf8`
+
 - Migrasi database
   ```bash
     php artisan migrate
@@ -141,4 +149,8 @@ Langkah-Langkah Pembuatan Web
 - Ubah variabel `timezone` pada file `.env`
   ```bash
     'timezone' => env('APP_TIMEZONE', 'UTC'),
+  ```
+- Bersihkan cache config
+  ```bash
+    php artisan config:clear
   ```
